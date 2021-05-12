@@ -5,7 +5,6 @@
 <img src="./Screenshots/pic1.jpg" alt="Picture 1">
 <img src="./Screenshots/pic2.jpg" alt="Picture 2">
 
-
 # The Project
 
 This is a project to show the time in some places in the Earth,
