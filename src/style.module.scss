@@ -1,0 +1,20 @@
+:root {
+  --default-text-color: #ffffff;
+  --default-bg-color: #c4c4c4;
+  --body-bg-color: #828282;
+  --section-bg-color: #6f6f6f;
+  --text-default: #191919;
+  --bg-color-100: #783cad;
+  --bg-color-200: #301346;
+}
+
+* {
+  font-family: Roboto;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

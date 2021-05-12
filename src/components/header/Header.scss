@@ -1,0 +1,24 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--default-bg-color);
+    width: 100%;
+    height: 10rem;
+    flex-direction: column;
+    transition: 0.5s;
+
+    h1 {
+        font-weight: 400;
+    }
+    
+    h2 {
+        margin-top: -10px;
+        font-weight: 300;
+    }
+}
+
+.headerContainer:hover {
+    filter: brightness(0.79) blur(0.91px);
+    transition: 0.5s;
+}
