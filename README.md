@@ -1,5 +1,4 @@
-# Mundi time
-
+<h1 align="center"> Mundi Time </h1>
 # Screenshots
 
 <img src="./Screenshots/pic1.jpg" alt="Picture 1">
@@ -37,9 +36,9 @@ we can learn more with this way.
 
 # How to use
 
-<h3>To use this project install the dependencies in your integrated
+To use this project install the dependencies in your integrated
 terminal using the command: **npm install** or if you use yarn
-just type **yarn**, this project is running on port localhost:3000. If you want to contribute to this project do a fork and a PR to help me. I will often make commits of any changes, see ya.</h3>
+just type **yarn**, this project is running on port localhost:3000. If you want to contribute to this project do a fork and a PR to help me. I will often make commits of any changes, see ya.
 
 <hr />
 
