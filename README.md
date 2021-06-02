@@ -39,7 +39,11 @@ we can learn more with this way.
 
 To use this project install the dependencies in your integrated
 terminal using the command: **npm install** or if you use yarn
-just type **yarn**, this project is running on port localhost:3000. If you want to contribute to this project do a fork and a PR to help me. I will often make commits of any changes, see ya.
+just type **yarn**, this project is running on port localhost:3000. 
+
+After this type **npm start** or **yarn start** to run the project.
+
+If you want to contribute to this project do a fork and a PR to help me. I will often make commits of any changes, see ya.
 
 <hr />
 
