@@ -7,7 +7,7 @@
   justify-content: center;
   margin: 20px auto;
   width: 75%;
-  height: 55rem;
+  height: 60rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
   color: #000;
   transition: 0.5s;
@@ -18,10 +18,9 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
     margin: 2rem auto;
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50px;
     background-color: var(--default-bg-color);
 
@@ -30,10 +29,12 @@
       transition: 0.4s;
     }
 
-    span {
+    .firstSpan {
+    }
+
+    .secondSpan {
       transition: 0.4s;
-      word-spacing: 1px;
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin-top: 0.8rem;
       text-align: center;
       color: var(--default-text-color);

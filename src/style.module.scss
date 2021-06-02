@@ -1,6 +1,17 @@
 :root {
   --default-text-color: #ffffff;
-  --default-bg-color: #c4c4c4;
+  --default-bg-color: linear-gradient(
+    0deg,
+    rgba(205, 205, 205, 1) 0%,
+    rgba(93, 74, 121, 1) 100%,
+    rgba(50, 23, 89, 1) 100%
+  );
+  --body-gradient: linear-gradient(
+    0deg,
+    rgba(205, 205, 205, 1) 0%,
+    rgba(93, 74, 121, 1) 24%,
+    rgba(50, 23, 89, 1) 100%
+  );
   --body-bg-color: #828282;
   --section-bg-color: #6f6f6f;
   --text-default: #191919;
@@ -13,7 +24,7 @@
 }
 
 body {
-  background-color: var(--body-bg-color);
+  background-image: var(--body-gradient);
   margin: 0;
   padding: 0;
   box-sizing: border-box;

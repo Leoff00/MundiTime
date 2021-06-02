@@ -1,24 +1,35 @@
 .headerContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--default-bg-color);
-    width: 100%;
-    height: 10rem;
-    flex-direction: column;
-    transition: 0.5s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: var(--default-bg-color);
+  width: 100%;
+  height: 10rem;
+  transition: 0.5s;
 
-    h1 {
-        font-weight: 400;
-    }
+  .headerTimer {
+    left: 0;
+    width: 150px;
+    height: 150px;
+  }
+
+  .headerTitleContainer {
+
+    margin: 0px 50px;
     
-    h2 {
-        margin-top: -10px;
-        font-weight: 300;
+    h1 {
+      font-weight: 400;
     }
+
+    h2 {
+      margin-top: -10px;
+      font-weight: 300;
+    }
+  }
 }
 
 .headerContainer:hover {
-    filter: brightness(0.79) blur(0.91px);
-    transition: 0.5s;
+  filter: brightness(0.79) blur(0.91px);
+  transition: 0.5s;
 }
