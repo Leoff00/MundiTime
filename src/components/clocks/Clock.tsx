@@ -1,44 +1,55 @@
 import { useEffect, useState } from "react";
 import "./Clock.scss";
-import { Brazil } from "./CountryHour";
 
-import { format } from "date-fns";
-
-const date = new Date();
+import { format, setDate } from "date-fns";
+import { setInterval } from "timers";
 
 export default function Clock() {
-  const [seconds, setSeconds]: any = useState(0);
+  const [seconds, setSeconds] = useState(0);
+  const [minutes, setMinutes] = useState(0);
+  const [hours, setHours] = useState(0);
+  const [dates, setDates] = useState("");
 
-  // (function handleSeconds() {
-  //   setInterval(() => {
-  //     setSeconds(new Date().getSeconds());
-  //   }, 1000);
-  // })();
-
-  (function handleSeconds() {
+  useEffect(() => {
     setInterval(() => {
-      setSeconds(format(new Date(), "dd/MM/yyyy - HH:MM"));
+      let date = new Date().toUTCString();
+      let hour = new Date().getHours();
+      let minute = new Date().getMinutes();
+      let second = new Date().getSeconds();
+
+      setDates(date);
+      setHours(hour);
+      setMinutes(minute);
+      setSeconds(second);
     }, 1000);
-  })();
+  }, []);
 
   return (
     <section>
       <div className="clocksContainer">
         <div className="clocks">
           <img src="../../img/africadosul.svg" alt="South Africa" />
-          <span className="secondSpan">{seconds}</span>
+          <span className="secondSpan">
+            {dates}
+          </span>
         </div>
         <div className="clocks">
           <img src="../../img/arabiasaudita.svg" alt="Saudi Arabia" />
-          <span className="secondSpan">Saudi Arabia</span>
+          <span className="secondSpan">
+            {hours}:{minutes}:{seconds}
+          </span>
         </div>
         <div className="clocks">
           <img src="../../img/australia.svg" alt="Australia" />
-          <span className="secondSpan">Australia</span>
+          <span className="secondSpan">
+            {hours}:{minutes}:{seconds}
+          </span>
         </div>
         <div className="clocks">
           <img src="../../img/brasil.svg" alt="Brazil" />
-          <span className="secondSpan">{seconds}</span>
+          <span className="secondSpan">
+            {dates}
+          </span>
         </div>
         <div className="clocks">
           <img src="../../img/canada.svg" alt="Canada" />

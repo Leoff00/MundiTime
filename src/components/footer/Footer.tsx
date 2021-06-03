@@ -2,6 +2,6 @@ import "./Footer.scss";
 
 export default function Footer() {
     return (
-        <footer>Desenvolvido com 💜 por Leonardo Ferreira</footer>
+        <footer>Developed with 💜 by Leonardo Ferreira</footer>
     )
 } 

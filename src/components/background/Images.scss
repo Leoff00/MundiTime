@@ -1,4 +1,27 @@
 .backgroundContainer {
+  .textOne {
+    font-style: italic;
+    position: absolute;
+    width: 40%;
+    left: 0;
+    margin: -30px 50px;
+    top: 80%;
+    font-size: 1.2rem;
+    color: var(--default-text-color);
+    z-index: -1;
+  }
+
+  .textTwo {
+    font-style: italic;
+    margin: -50px 50px;
+    position: absolute;
+    top: 160%;
+    right: 0;
+    font-size: 1.2rem;
+    color: var(--default-text-color);
+    z-index: -1;
+  }
+
   .timeOne {
     position: absolute;
     top: 40%;
