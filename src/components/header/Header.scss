@@ -15,9 +15,8 @@
   }
 
   .headerTitleContainer {
-
     margin: 0px 50px;
-    
+
     h1 {
       font-weight: 400;
     }
@@ -30,6 +29,6 @@
 }
 
 .headerContainer:hover {
-  filter: brightness(0.79) blur(0.91px);
+  filter: brightness(0.79);
   transition: 0.5s;
 }
