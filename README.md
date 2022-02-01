@@ -1,4 +1,4 @@
-<h1 align="center"> -Mundi Time- </h1>
+<h1 align="center"> Mundi Time </h1>
 
 # The Project
 
